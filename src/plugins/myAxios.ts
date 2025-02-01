@@ -5,7 +5,7 @@ const myAxios = axios.create({
   baseURL:
     // @ts-ignore
     process.env.NODE_ENV === "production"
-      ? "netease-cloud-music-api-nine-gilt-25.vercel.app"
+      ? "https://netease-cloud-music-api-nine-gilt-25.vercel.app/"
       : "http://localhost:7345/api",
 });
 
